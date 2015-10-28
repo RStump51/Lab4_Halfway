@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fill="#088715" layoutX="300.0" layoutY="300.0" radius="200.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="300.0" />
+      <HBox layoutX="200.0" layoutY="250.0" prefHeight="400.0" prefWidth="150.0" AnchorPane.bottomAnchor="300.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="650.0" AnchorPane.topAnchor="300.0" />
+      <HBox layoutX="300.0" layoutY="350.0" prefHeight="150.0" prefWidth="275.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="400.0" />
+      <HBox layoutX="300.0" layoutY="52.0" prefHeight="151.0" prefWidth="400.0" AnchorPane.bottomAnchor="650.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="150.0" />
+      <HBox layoutX="578.0" layoutY="350.0" prefHeight="400.0" prefWidth="150.0" AnchorPane.bottomAnchor="300.0" AnchorPane.leftAnchor="650.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="300.0" />
+      <HBox layoutX="288.0" layoutY="633.0" prefHeight="150.0" prefWidth="400.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="650.0" />
+      <MenuButton layoutX="2.0" layoutY="14.0" mnemonicParsing="false" text="Game">
+        <items>
+          <MenuItem mnemonicParsing="false" text="5 Card Stud" />
+          <MenuItem mnemonicParsing="false" text="Deuces Wild" />
+            <MenuItem mnemonicParsing="false" text="5 Card Draw" />
+            <MenuItem mnemonicParsing="false" text="7 Card Draw" />
+            <MenuItem mnemonicParsing="false" text="Texas Hold 'Em" />
+            <MenuItem mnemonicParsing="false" text="Omaha" />
+        </items>
+      </MenuButton>
+      <Button layoutX="11.0" layoutY="371.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="Sit" />
+      <Button layoutX="11.0" layoutY="410.0" mnemonicParsing="false" text="Leave" />
+      <Button layoutX="500.0" layoutY="34.0" mnemonicParsing="false" text="Leave" />
+      <Button layoutX="422.0" layoutY="34.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="Sit" />
+      <Button layoutX="908.0" layoutY="371.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="Sit" />
+      <Button layoutX="908.0" layoutY="410.0" mnemonicParsing="false" text="Leave" />
+      <Button layoutX="412.0" layoutY="931.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="Sit" />
+      <Button layoutX="488.0" layoutY="931.0" mnemonicParsing="false" text="Leave" />
+      <Button layoutX="453.0" layoutY="573.0" mnemonicParsing="false" text="Start Game" />
+   </children>
+</AnchorPane>
